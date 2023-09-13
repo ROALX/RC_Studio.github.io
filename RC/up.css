@@ -1,0 +1,58 @@
+/* 设置页面背景图片 */
+body {
+    background-image: url('1674118825738575073.jpg');
+    /* 替换为您的背景图片的文件路径 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    max-width: 1000px;
+    max-height: 225px;
+}
+
+/* 设置标题样式 */
+.header {
+    padding: 20px;
+    /* 调整标题内边距 */
+    text-align: center;
+    /* 居中标题文本 */
+}
+
+/* 设置导航链接样式 */
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.social ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.social ul li:first-child {
+    margin-left: 0;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/* 调整菜单开关按钮样式 */
+.menu-switch {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #555;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+p {
+    font: italic bold 20px/1.7 Arial, sans-serif;
+}
+
+---------------------------- 
+
